@@ -8,6 +8,13 @@ install Java:
 apt-get install default-jre
 ```
 
+```bash
+echo "deb https://deb.i2p2.de/ jessie main" >> /etc/apt/sources.list
+echo "deb-src https://deb.i2p2.de/ jessie main" >> /etc/apt/sources.list
+apt-key add i2p-debian-repo.key.asc
+apt-get update
+apt-get install i2p i2p-keyring
+```
 
 ### references:
 * https://wiki.debian.org/I2P
