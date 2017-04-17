@@ -1,8 +1,8 @@
 # networkSecurity
 
-##I2P (Invisible Internet Project)
-###Install notes
+## I2P (Invisible Internet Project)
+### Install notes
 install Java:
 apt-get install default-jre
-###references:
+### references:
 https://wiki.debian.org/I2P
